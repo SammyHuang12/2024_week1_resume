@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/all.css">
 </head>
@@ -13,52 +14,65 @@
         <img src="images/vito.png" alt="vito log">
         <h2 class="header-title">RESUME</h2>
     </header>
-    <div class="about-us">
-        <div class="container">
-            <p class="txt w-50">I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.</p>
+    <div class="overflow-hidden">
+        <div class="about-us">
+            <div class="container">
+                <p class="txt w-50" data-aos="fade-up-left">I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.</p>
+            </div>
         </div>
     </div>
-    <main class="main container">
-        <section class="section w-50">
-            <h3 class="main-title">Vito Evans</h3>
-            <ul>
-                <li>456 Walnut Avenue, Someville, USA</li>
-                <li><a href="tel:+1 123 456 7890">+1 123 456 7890</a></li>
-                <li><a href="mailto:info@hexschool.com">info@hexschool.com</a></li>
-                <li><a href="www.infohexschool.com">www.infohexschool.com</a></li>
-            </ul>
-        </section>
-        <section class="section w-50">
-            <h3 class="main-title">Education</h3>
-            <ul>
-                <li><span>2014-2018</span>Bachelor of Science in Business Administration, University of California, Los Angeles</li>
-                <li><span>2012-2014</span>Associate of Arts in Graphic Design, San Francisco State University</li>
-                <li><span>2008-2012</span>High School Diploma, Lincoln High School</li>
-            </ul>
-        </section>
-        <section class="section w-50">
-            <h3 class="main-title">Work</h3>
-            <ul>
-                <li><span>2018-2021</span>Marketing Manager, ABC Company</li>
-                <li><span>2016-2018</span>Sales Associate, XYZ Corporation</li>
-                <li><span>2014-2016</span>Customer Service Representative, QRS Inc.</li>
-            </ul>
-        </section>
-        <section class="section w-50">
-            <h3 class="main-title">Awards</h3>
-            <ul>
-                <li>Best in Show Award, National Advertising Awards, 2020</li>
-                <li>Honorable Mention, International Design Competition, 2019</li>
-                <li>People's Choice Award, Local Art Exhibition, 2018</li>
-            </ul>
-        </section>
+    
+    <main class="main container overflow-hidden">
+        <!-- <div class=""> -->
+            <section class="section w-50" data-aos="fade-up-right">
+                <h3 class="main-title">Vito Evans</h3>
+                <ul>
+                    <li>456 Walnut Avenue, Someville, USA</li>
+                    <li><a href="tel:+1 123 456 7890">+1 123 456 7890</a></li>
+                    <li><a href="mailto:info@hexschool.com">info@hexschool.com</a></li>
+                    <li><a href="www.infohexschool.com">www.infohexschool.com</a></li>
+                </ul>
+            </section>
+        <!-- </div> -->
+        <!-- <div class="overflow-hidden"> -->
+            <section class="section w-50" data-aos="fade-up-left">
+                <h3 class="main-title">Education</h3>
+                <ul>
+                    <li><span>2014-2018</span>Bachelor of Science in Business Administration, University of California, Los Angeles</li>
+                    <li><span>2012-2014</span>Associate of Arts in Graphic Design, San Francisco State University</li>
+                    <li><span>2008-2012</span>High School Diploma, Lincoln High School</li>
+                </ul>
+            </section>
+        <!-- </div> -->
+        <!-- <div class="overflow-hidden"> -->
+            <section class="section w-50" data-aos="zoom-out-right">
+                <h3 class="main-title">Work</h3>
+                <ul>
+                    <li><span>2018-2021</span>Marketing Manager, ABC Company</li>
+                    <li><span>2016-2018</span>Sales Associate, XYZ Corporation</li>
+                    <li><span>2014-2016</span>Customer Service Representative, QRS Inc.</li>
+                </ul>
+            </section>
+        <!-- </div>
+        <div class="overflow-hidden"> -->
+            <section class="section w-50" data-aos="zoom-out-left">
+                <h3 class="main-title">Awards</h3>
+                <ul>
+                    <li>Best in Show Award, National Advertising Awards, 2020</li>
+                    <li>Honorable Mention, International Design Competition, 2019</li>
+                    <li>People's Choice Award, Local Art Exhibition, 2018</li>
+                </ul>
+            </section>
+        <!-- </div> -->
     </main>
     <footer class="footer">
         <ul class="soical">
-            <li><a href="#"><img src="images/fb.png" alt="fb logo"></a></li>
-            <li><a href="#"><img src="images/instagram.png" alt="IG logo"></a></li>
-            <li><a href="#"><img src="images/line.png" alt="line logo"></a></li>
+            <li data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><a href="#" ><img src="images/fb.png" alt="fb logo"></a></li>
+            <li data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><a href="#"><img src="images/instagram.png" alt="IG logo"></a></li>
+            <li data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><a href="#"><img src="images/line.png" alt="line logo"></a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/all.js"></script>
 </body>
 </html>
